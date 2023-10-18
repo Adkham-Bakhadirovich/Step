@@ -1,0 +1,60 @@
+/* dm-sans-regular - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-display: swap; 
+  font-style: normal;
+  src:url("../fonts/dm-sans-v14-latin-regular.woff2") format("woff2"), 
+  url("../fonts/dm-sans-v14-latin-regular.woff") format("woff");
+  
+}
+
+
+/* dm-sans-500 - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-display: swap; 
+  font-style: normal;
+  src: url("../fonts/dm-sans-v14-latin-500.woff2") format("woff2"), 
+  url("../fonts/dm-sans-v14-latin-500.woff") format("woff");
+  
+}
+
+
+/* dm-sans-700 - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-display: swap; 
+  font-style: normal;
+  src:url("../fonts/dm-sans-v14-latin-700.woff2") format("woff2"), 
+  url("../fonts/dm-sans-v14-latin-700.woff") format("woff");
+  
+}
+
+
+
+
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-display: swap; 
+  font-style: normal;
+  src: url("../fonts/inter-v13-latin-regular.woff2") format("woff2"), 
+  url("../fonts/inter-v13-latin-regular.woff") format("woff");
+  
+}
+
+
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v13-latin-600.woff2") format("woff2"),
+  url("../fonts/inter-v13-latin-600.woff") format("woff");
+  
+}

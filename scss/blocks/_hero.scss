@@ -1,0 +1,517 @@
+.hero {
+  padding-top: 58px;
+  padding-bottom: 157px;
+}
+
+.hero__form {
+  display: flex;
+  width: 500px;
+  padding: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: center;
+  // gap: 35px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hero__title {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: normal;
+  color: #000;
+  text-align: center;
+}
+
+.hero__text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 35px;
+  line-height: normal;
+  text-align: center;
+  color: #000;
+}
+
+.hero__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+  margin-bottom: 25px;
+}
+
+.top__span {
+  width: 170px;
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.firstname-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.firstname-label::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/redstar.svg");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.firstname-input {
+  border: none;
+  background-color: transparent;
+}
+
+.firstname-input::placeholder {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.bottom__span {
+  width: 170px;
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.lastname-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.lastname-label::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/redstar.svg");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.lastname-input {
+  border: none;
+  background-color: transparent;
+}
+
+.lastname-input::placeholder {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.email-span {
+  width: 380px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.email-span::after {
+  position: absolute;
+  top: 15px;
+  left: 345px;
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/massage.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}
+
+.email-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.email-input {
+  border: none;
+  background-color: transparent;
+}
+
+.email-input::placeholder {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.email-label::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/redstar.svg");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.password-span {
+  width: 380px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.password-span::after {
+  position: absolute;
+  top: 15px;
+  left: 345px;
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/eye.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}
+
+.password-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.password-input {
+  border: none;
+  background-color: transparent;
+}
+
+.password-input::placeholder {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.password-label::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/redstar.svg");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.rpassword-span {
+  width: 380px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.rpassword-span::after {
+  position: absolute;
+  top: 15px;
+  left: 345px;
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/eye.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}
+
+.rpassword-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.rpassword-input {
+  border: none;
+  background-color: transparent;
+}
+
+.rpassword-input::placeholder {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.rpassword-label::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/redstar.svg");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+.gender-span {
+  width: 380px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.gender-span::after {
+  position: absolute;
+  top: 15px;
+  left: 345px;
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/down.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}
+
+.gender-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.gender-select {
+  border: none;
+  background-color: transparent;
+  width: 348px;
+}
+
+.gender {
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.birthday-span {
+  width: 380px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--Input-border-color, #D2D5DA);
+  background: #FFF;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.birthday-span::after {
+  position: absolute;
+  top: 15px;
+  left: 345px;
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/calendar.svg");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+}
+
+.birthday-label {
+  color: var(--Mini-title, #121826);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 3px;
+  align-items: flex-start;
+  background-color: #FFF;
+  position: absolute;
+  top: -10px;
+  left: 13px;
+}
+
+.birthday-input {
+  border: none;
+  background-color: transparent;
+}
+
+.birthday-input::placeholder {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #6C727F;
+}
+
+.check-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.check-text {
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.check {
+  margin-right: 12px;
+}
+
+.gravida {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.form-link {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  border: none;
+  text-decoration: none;
+}
+
+.form-link__wrapper {
+  display: flex;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #2C28E1;
+  color: #FFF;
+}

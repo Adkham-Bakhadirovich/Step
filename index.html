@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <title>Multi-Step Form</title>
+</head>
+<body>
+  <!-- Start of Header  -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="logo" href="#"><img class="logo__img" src="./images/site-logo.svg" alt="site-logo" width="304" height="40"></a>
+        
+        <a class="site-header__link" href="#">Register</a>
+      </div>
+    </div>
+  </header>
+  <!-- Finish of Header  -->
+  
+  <!-- Start of Main  -->
+  <main>
+    <!-- Start of Section Hero  -->
+    <section class="hero">
+      <div class="container">
+        
+        <form class="hero__form">
+          
+          <h1 class="hero__title">Welcome</h1>
+          
+          <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Quam duis vitae curabitur amet, fermentum lorem. 
+          </p>
+          
+          <div class="hero__box">
+            <span class="top__span">
+              <label class="firstname-label" for="firstname">First name</label>
+              <input class="firstname-input" type="text" id="firstname" placeholder="Your name">
+            </span>
+            
+            <span class="bottom__span">
+              <label class="lastname-label" for="lastname">Last name</label>
+              <input class="lastname-input" type="text" id="lastname" placeholder="Your last name">
+            </span>
+          </div>
+          
+          <span class="email-span">
+            <label class="email-label" for="email">E-mail</label>
+            <input class="email-input" type="email" id="email" placeholder="yourmail@gmail.com">
+          </span>
+          
+          <span class="password-span">
+            <label class="password-label" for="password">Password</label>
+            <input class="password-input" type="number" id="password" placeholder="•••••••••••••">
+          </span>
+          
+          <span class="rpassword-span">
+            <label class="rpassword-label" for="rpassword">Repeat Password </label>
+            <input class="rpassword-input" type="number" id="rpassword" placeholder="•••••••••••••">
+          </span>
+          
+          <span class="gender-span">
+            <label class="gender-label" for="gender">Gender *</label>
+            <select class="gender-select"  id="gender">
+              <option class="gender" value="">Select your gender</option>
+              <option value="">male</option>
+              <option value="">female</option>
+            </select>
+          </span>
+          
+          <span class="birthday-span">
+            <label class="birthday-label" for="birthday">Birthday *</label>
+            <input class="birthday-input" type="datetime" id="birthday" placeholder="DD / MM / YYYY">
+          </span>
+          
+          <div class="check-box">
+            <input class="check" type="checkbox">
+            <p class="check-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <span class="gravida">Gravida eget ultricies</span> pharetra scelerisque duis cursus.
+            </p>
+          </div>
+          
+          <span class="form-link__wrapper">
+            <a class="form-link" href="./contact.html">Enter</a>
+          </span>
+          
+        </form>
+      </div>
+    </section>
+    <!-- Finish of Section Hero  -->
+  </main>
+  <!-- Finish of Main  -->
+  
+  
+  <!-- Start of Footer  -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__box">
+          <a class="site-footer__link" href="#"><img src="./images/site-logo.svg" alt="site-logo" width="262" height="34"></a>
+          <p class="site-footer__text">Copyright © 2021 BRIX Templates | All Rights Reserved</p>
+        </div>
+        
+        <form class="site-footer__form">
+          <input class="site-footer__input" type="email" placeholder="Enter your email">
+          <button class="site-footer__button" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <!-- Finish of Footer  -->
+
+
+  <script src="./JS/main.js"></script>
+</body>
+</html>
